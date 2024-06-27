@@ -32,7 +32,7 @@ jobs:
       sourceControlId: 'fb584eda-6410-4c8c-a8f5-2eb17fbd3bee'
       rootDirectory: '${{ github.workspace }}'
       githubAuthToken: ${{ secrets.GITHUB_TOKEN }}
-      smartDeployment: 'true'
+      smartDeployment: 'false'
 
     steps:
     - name: Login to Azure (Attempt 1)
